@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id = "title">
+      <img src = "images/codertranslate.png">
+    </div>
+
+    <div id = "everything">
+    <div id = "everythingInput">
+      <div id = "subHeader">
+       <p><b><center> Translate From: </center></b></p>
+      </div>
+
+      <div id = "codeImage">
+        <img id = "inImage">
+      </div>
+
+      <div id = "inLanguages">
+        <button id = "inRuby" class = "languageButton" type="button">
+          Ruby
+        </button>
+ 
+        <button id = "inPython" class = "languageButton" type="button">
+          Python
+        </button>
+ 
+        <button id = "inJava" class = "languageButton" type="button">
+          Java
+        </button>
+      </div>
+
+      <textarea id = "inputCode" rows = "13" cols = "40" name = "description">
+Enter code here...
+      </textarea>
+    </div>
+
+    <div id = "everythingOutput">
+      <div id = "subHeader">
+       <p><b><center> Translate To: </center></b></p>
+      </div>
+
+      <div id = "codeImage">
+        <img id = "outImage">
+      </div>
+
+      <div id = "outLanguages">
+        <button id = "outRuby" class = "languageButton" type="button">
+          Ruby
+        </button>
+
+        <button id = "outPython" class = "languageButton" type="button">
+          Python
+        </button>
+
+        <button id = "outJava" class = "languageButton" type="button">
+          Java
+        </button>
+      </div>
+
+      <textarea id = "outputCode" rows = "13" cols = "40" name = "description"></textarea>
+    </div>
+    </div>
+
+    <div id = "translateButtonDIV">
+      <button id = "translateButton" type="button">
+        Translate!
+      </button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
