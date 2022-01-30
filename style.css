@@ -1,0 +1,85 @@
+textarea { 
+  font-size: 30px;
+}
+
+#translateButtonDIV {
+  display: flex;
+  justify-content: center;
+  margin-top: 1%; 
+}
+
+#translateButton {
+  font-size: 50px; 
+  font-family: "Courier New"; 
+}
+
+#codeImage {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1%; 
+}
+
+#codeImage img {
+  max-height: 100px;
+}
+
+#title {
+  font-size: 300%;
+  font-family: "Courier New"; 
+  display: flex;
+  justify-content: center;
+}
+
+#title img {
+  max-height: 220px;
+}
+
+#subHeader {
+  font-size: 150%;
+  justify-content: center;
+  font-family: "Courier New"; 
+}
+
+#inLanguages {
+  display: flex;
+  margin-bottom: 1%; 
+}
+
+#outLanguages {
+  display: flex;
+  margin-bottom: 1%; 
+}
+
+.languageButton {
+  font-size: 25px; 
+  font-family: "Courier New"; 
+}
+
+#everything {
+  display: grid; 
+  grid-template-columns: 1fr 1fr;
+  margin-right: 5%;
+  margin-left: 5%; 
+  grid-column-gap: 5%; 
+  justify-content: center; 
+}
+
+#inLanguages {
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+#outLanguages {
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+button {
+  background-color: rgba(255, 255, 255, 1); 
+  transition-duration: 0.1s;
+}
+
+button:hover {
+  background-color: rgba(255, 0, 0, 1); 
+  color: white;
+}
